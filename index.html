@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+        <script defer src="js/client.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img id="image" class="image">
+                <h1 id="DispUserName"></h1>
+                <img id="logo">
+                <p id="date2"></p>
+                <p id="RandId"></p>
+            </div>
+           
+           <!--  -->
+           <!-- <div class="message right"></div> -->
+           <p id="date"></p>
+        </div>
+        <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" name="messageInp" placeholder="Type a message" value="" id="messageInp">
+                <button type="submit" class="bttn"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </form>
+        </div>
+    </body>
+</html>
